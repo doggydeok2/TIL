@@ -351,3 +351,31 @@ div {
 }
 ```
 
+
+
+## 5. 강의 예제
+
+- 브라우저마다 `<body>` 요소에 기본 margin과 padding이 설정되어 있음
+  - 브라우저마다 다른 값을 가지고 있을 수 있으니, 임의로 초기화하여 사용하면 좋음
+- 0은 단위를 사용하지 않음
+
+```css
+body {
+  margin: 0;
+  padding: 0;
+}
+```
+
+- `margin: auto;`는 요소를 수평 가운데 정렬할 때 사용
+- `float: left;`는 수평 정렬하는 트릭으로 사용 가능
+  - 정확한 의미가 수평 정렬은 아님
+  - `.clearfix::after` 를 통한 후처리가 필요
+
+```css
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+```
+

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background: red;
+  height: 20px;
+}
+
+span {
+  background: yellow;
+  width: 200px;  /* 적용되지 않음 */
+  height: 150px;  /* 적용되지 않음 */
+}
