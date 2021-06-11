@@ -1,6 +1,8 @@
 # HTML 요소-주요 범위 & 메타데이터
 
 > 패스트캠퍼스 프론트엔드 개발 올인원 패키지 with React Online. 
+>
+> https://heropy.blog/2019/05/26/html-elements/
 
 
 
