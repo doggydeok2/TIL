@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .section {
+      color: red;
+      width: 100px;
+      background: blue;
+    }
+    #section {
+      width: 200px;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div class="section"></div>
+  <div id="section"></div>
+
+  <script>
+    const section = document.querySelector('.section');
+    const sectionId = document.getElementById('section');
+  </script>
+</body>
+</html>
